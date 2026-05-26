@@ -53,16 +53,35 @@
   "entity": {
     "sensor": {
       "aqi": {
-        "name": "空气质量"
+        "name": "空气质量",
+        "state_attributes": {
+          "aqi_value": { "name": "AQI 数值" },
+          "aqi_level": { "name": "空气质量等级" },
+          "primary_pollutant": { "name": "主要污染物" },
+          "pm2p5": { "name": "PM2.5" },
+          "pm10": { "name": "PM10" },
+          "no2": { "name": "二氧化氮（NO₂）" },
+          "so2": { "name": "二氧化硫（SO₂）" },
+          "o3": { "name": "臭氧（O₃）" },
+          "co": { "name": "一氧化碳（CO）" },
+          "health_effect": { "name": "健康影响" },
+          "health_advice": { "name": "健康建议" }
+        },
+        "unit_of_measurement": {
+          "μg/m³": "微克/立方米",
+          "mg/m³": "毫克/立方米"
+        }
       },
-      "warning_count": {
+      "warning_info": {
         "name": "气象预警"
       },
       "today_temp_range": {
-        "name": "今日温度范围"
+        "name": "今日温度范围",
+        "state_attributes": { "max_temp": { "name": "最高温度" }, "min_temp": { "name": "最低温度" } }        
       },
       "precipitation_summary": {
-        "name": "降水简报"
+        "name": "降水简报",
+        "state_attributes": { "detail": { "name": "细节" } }
       },
       "weather_summary": {
         "name": "天气概况"
@@ -71,7 +90,37 @@
 
     "weather": {
       "weather": {
-        "name": "天气"
+        "name": "天气",
+        "state_attributes": {
+          "qweather_icon": { "name": "天气图标" },
+          "update_time": { "name": "数据更新时间" },
+          "obs_time": { "name": "实况观测时间" },
+          "condition_cn": { "name": "天气状况（中文）" },
+          "wind_dir": { "name": "风向" },
+          "cloud": { "name": "云量" },
+          "dew": { "name": "露点温度" },
+          "precip": { "name": "降水量" },
+          "precip_probability": { "name": "降水概率" },
+          "feels_like": { "name": "体感温度" },
+          "wind_scale": { "name": "风力等级" },
+          "sunrise": { "name": "日出时间" },
+          "sunset": { "name": "日落时间" },
+          "moon_phase": { "name": "月相" },
+          "moonrise": { "name": "月出时间" },
+          "moonset": { "name": "月落时间" },
+          "minutely_summary": { "name": "分钟级天气总结" },
+          "hourly_summary": { "name": "小时级天气总结" },
+          "aqi": { "name": "空气质量指数" },
+          "city": { "name": "城市" },
+          "suggestion": { "name": "生活指数建议" }
+        },
+        "unit_of_measurement": {
+          "°C": "摄氏度",
+          "mmHg": "毫米汞柱",
+          "km/h": "公里/小时",
+          "km": "公里",
+          "mm": "毫米"
+        }
       }
     }
   }
