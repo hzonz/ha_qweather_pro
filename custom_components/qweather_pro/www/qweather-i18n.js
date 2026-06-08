@@ -45,7 +45,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"Heat surge",warmer:"Warmer",steady:"Steady",colder:"Colder",cold_snap:"Cold snap"},
     uv_high:"UV index is high",
     temp_change_prefix: "Tomorrow",
-    now_prefix: "now"
+    now_prefix: "air"
   },
   
 
@@ -94,7 +94,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"气温剧升",warmer:"气温升高",steady:"温度平稳",colder:"气温降低",cold_snap:"断崖式降温"},
     uv_high:"紫外线较强",
     temp_change_prefix: "明天",
-    now_prefix: "当前"
+    now_prefix: "空气"
   },
   
   /* -------------------- 繁體中文 -------------------- */
@@ -142,7 +142,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"氣溫劇升",warmer:"氣溫升高",steady:"溫度平穩",colder:"氣溫降低",cold_snap:"斷崖式降溫"},
     uv_high:"紫外線較強",
     temp_change_prefix: "明天",
-    now_prefix: "當前"
+    now_prefix: "空氣"
   },
 
   /* -------------------- Japanese -------------------- */
@@ -190,7 +190,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"気温急上昇",warmer:"暖かくなる",steady:"変化なし",colder:"寒くなる",cold_snap:"急激に寒くなる"},
     uv_high:"UV指数が高い",
     temp_change_prefix: "明日",
-    now_prefix: "現在"
+    now_prefix: "空気"
   },
 
   /* -------------------- Korean -------------------- */
@@ -238,7 +238,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"기온 급상승",warmer:"더 따뜻해짐",steady:"변화 없음",colder:"더 추워짐",cold_snap:"급격히 추워짐"},
     uv_high:"자외선 지수가 높음",
     temp_change_prefix: "내일",
-    now_prefix: "현재"
+    now_prefix: "공기"
   },
 
   /* -------------------- French -------------------- */
@@ -286,7 +286,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"Montée de chaleur",warmer:"Plus chaud",steady:"Stable",colder:"Plus froid",cold_snap:"Vague de froid"},
     uv_high:"Indice UV élevé",
     temp_change_prefix: "Demain",
-    now_prefix: "maintenant"
+    now_prefix: "air"
   },
 
   /* -------------------- German -------------------- */
@@ -334,7 +334,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"Hitzewelle",warmer:"Wärmer",steady:"Stabil",colder:"Kälter",cold_snap:"Kältewelle"},
     uv_high:"UV-Index ist hoch",
     temp_change_prefix: "Morgen",
-    now_prefix: "jetzt"
+    now_prefix: "Luft"
   },
 
   /* -------------------- Spanish -------------------- */
@@ -382,7 +382,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"Oleada de calor",warmer:"Más cálido",steady:"Estable",colder:"Más frío",cold_snap:"Ola de frío"},
     uv_high:"Índice UV alto",
     temp_change_prefix: "Mañana",
-    now_prefix: "ahora"
+    now_prefix: "Aire"
   },
 
   /* -------------------- Italian -------------------- */
@@ -430,7 +430,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"Aumento di calore",warmer:"Più caldo",steady:"Stabile",colder:"Più freddo",cold_snap:"Vortice di freddo"},
     uv_high:"Indice UV alto",
     temp_change_prefix: "Domani",
-    now_prefix: "ora"
+    now_prefix: "Aire"
   },
 
   /* -------------------- Portuguese (Brazil) -------------------- */
@@ -478,7 +478,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"Onda de calor",warmer:"Mais quente",steady:"Estável",colder:"Mais frio",cold_snap:"Onda de frio"},
     uv_high:"Índice UV alto",
     temp_change_prefix: "Amanhã",
-    now_prefix: "agora"
+    now_prefix: "Ar"
   },
 
   /* -------------------- Russian -------------------- */
@@ -526,7 +526,7 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"Резкое повышение температуры",warmer:"Теплее",steady:"Без изменений",colder:"Холоднее",cold_snap:"Резкое похолодание"},
     uv_high:"УФ-индекс высокий",
     temp_change_prefix: "Завтра",
-    now_prefix: "сейчас"
+    now_prefix: "Воздух"
   },
 
 /* -------------------- Dutch -------------------- */
@@ -574,6 +574,6 @@ window.QW_I18N = {
     temp_change_type:{heat_surge:"Temperatuurstijging",warmer:"Warmer",steady:"Stabiel",colder:"Kouder",cold_snap:"Temperatuurdaling"},
     uv_high:"UV-index is hoog",
     temp_change_prefix: "Morgen",
-    now_prefix: "nu"
+    now_prefix: "Lucht"
   }
 };

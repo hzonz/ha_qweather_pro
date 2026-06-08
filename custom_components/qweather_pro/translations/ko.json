@@ -178,7 +178,7 @@
           "type_name": { "name": "경보 유형 이름" }
         }
       },
-      
+      "aqi_status": { "name": "대기질 상태" },
       "today_temp_range": {
         "name": "오늘의 기온 범위",
         "state": {

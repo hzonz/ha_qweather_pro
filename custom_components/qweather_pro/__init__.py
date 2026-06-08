@@ -25,7 +25,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: QWeatherConfigEntry) -> 
     # 注册静态资源 (跨 Entry 全局任务，仅在 HA 启动后执行一次)
     if f"{DOMAIN}_assets" not in hass.data:
         # 动态获取物理路径
-        local_path = hass.config.path("custom_components", DOMAIN, "local")
+        local_path = hass.config.path("custom_components", DOMAIN, "www")
         
         if os.path.exists(local_path):
             # 注册静态路径映射
@@ -35,9 +35,9 @@ async def async_setup_entry(hass: HomeAssistant, entry: QWeatherConfigEntry) -> 
             
             # 注入资源：主卡片与详情页 JS
             assets = [
-                f"/qweather-local/qweather-card/qweather-card.js?v={version}",
-                f"/qweather-local/qweather-card/qweather-more-info.js?v={version}",
-                f"/qweather-local/qweather-card/qweather-i18n.js?v={version}"
+                f"/qweather-local/qweather-card.js?v={version}",
+                f"/qweather-local/qweather-more-info.js?v={version}",
+                f"/qweather-local/qweather-i18n.js?v={version}"
             ]
             
             for url in assets:

@@ -217,6 +217,7 @@
               "cold_snap": "气温骤降"
             }
           },
+          "aqi_status": { "name": "空气质量状态" },
           "uv_risk": {
             "name": "紫外线强度",
             "state": {

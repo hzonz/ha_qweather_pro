@@ -222,6 +222,7 @@
               "cold_snap": "急降下"
             }
           },
+          "aqi_status": { "name": "空気質状態" },
           "uv_risk": {
             "name": "紫外線強度",
             "state": {

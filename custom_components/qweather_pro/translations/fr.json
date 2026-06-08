@@ -223,6 +223,7 @@
               "cold_snap": "Chute brutale"
             }
           },
+          "aqi_status": { "name": "Qualité de l’air" },
           "uv_risk": {
             "name": "Intensité UV",
             "state": {

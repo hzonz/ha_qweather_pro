@@ -223,6 +223,7 @@
               "cold_snap": "Calo improvviso"
             }
           },
+          "aqi_status": { "name": "Qualità dell’aria" },
           "uv_risk": {
             "name": "Intensità UV",
             "state": {

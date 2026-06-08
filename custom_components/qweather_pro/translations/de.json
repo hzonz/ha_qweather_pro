@@ -223,6 +223,7 @@
               "cold_snap": "Starker Abfall"
             }
           },
+          "aqi_status": { "name": "Luftqualitätsstatus" },
           "uv_risk": {
             "name": "UV‑Intensität",
             "state": {

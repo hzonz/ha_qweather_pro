@@ -179,7 +179,7 @@
           "type_name": { "name": "預警類型名稱" }
         }
       },
-
+      "aqi_status": { "name": "空氣品質狀態" },
       "today_temp_range": {
         "name": "今日溫度範圍",
         "state": {

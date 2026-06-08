@@ -178,7 +178,7 @@
           "type_name": { "name": "Tipo de alerta" }
         }
       },
-
+      "aqi_status": { "name": "Qualidade do ar" },
       "today_temp_range": {
         "name": "Faixa de temperatura de hoje",
         "state": {

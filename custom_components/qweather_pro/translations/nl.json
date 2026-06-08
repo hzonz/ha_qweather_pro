@@ -178,7 +178,7 @@
           "type_name": { "name": "Type waarschuwing" }
         }
       },
-
+      "aqi_status": { "name": "Luchtkwaliteitsstatus" },
       "today_temp_range": {
         "name": "Temperatuurbereik vandaag",
         "state": {

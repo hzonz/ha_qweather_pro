@@ -223,6 +223,7 @@
               "cold_snap": "Descenso brusco"
             }
           },
+          "aqi_status": { "name": "Calidad del aire" },
           "uv_risk": {
             "name": "Intensidad UV",
             "state": {
