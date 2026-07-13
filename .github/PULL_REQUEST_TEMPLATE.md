@@ -1,10 +1,12 @@
 <!--
 ============================================================
 PR Rules / PR 规范
+
 Before submitting / 提交前确认:
 
 1. Title:
    <type>: <description>
+
    Allowed:
    feat     New feature / 新功能
    fix      Bug fix / 问题修复
@@ -14,33 +16,24 @@ Before submitting / 提交前确认:
 
 2. Branch:
    <type>/<description>
+
    Allowed:
-   feature/*  bugfix/*  refactor/*
-   docs/*     hotfix/*
-   
+   feature/*
+   bugfix/*
+   refactor/*
+   docs/*
+   hotfix/*
+
 3. PR_TYPE:
-   Add one marker:
+   Add marker below / 添加下面标识
 
-   <!-- PR_TYPE:feat -->
-
-CI checks / CI 检查:
-
+CI checks:
 ✓ PR Title
 ✓ Branch name
 ✓ PR_TYPE
 ✓ Description
 ✓ Checklist
 
-Examples / 示例:
-
-Title:
-feat: add user authentication
-
-Branch:
-feature/add-login
-
-PR_TYPE:
-<!-- PR_TYPE:feat -->
 ============================================================
 -->
 
